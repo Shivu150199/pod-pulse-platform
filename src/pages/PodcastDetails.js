@@ -104,7 +104,7 @@ function PodcastDetails({setFlag}) {
                         </div>
                     </div>
                     <div className="banner-box">
-                        <img src={podcast.bannerImage} alt="" />
+                        <img src={podcast.bannerImage} alt="welcome banner" />
                     </div>
                     <p className="podcast-details-description">{podcast.description}</p>
                     <h2 className="episodes-heading">Episodes</h2>

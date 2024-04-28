@@ -90,7 +90,7 @@ function UpdateModal({ setShowModal, user }) {
             <div className="modal-container">
                 <h2>Edit Profile</h2>
                 <label htmlFor='profile-pic' className='profile-pic'>
-                    <img src={previewImage} alt="" />
+                    <img src={previewImage} alt="welcome banner" />
                     <div className="label-overlay">
                         <RiImageEditFill />
                     </div>

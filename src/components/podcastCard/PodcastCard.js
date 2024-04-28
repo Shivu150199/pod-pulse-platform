@@ -8,7 +8,7 @@ function PodcastCard({podcast}) {
     <Link to={`/podcast/${podcast.id}`}>
         <div className="podcast-card">
             <div className="display-img-box">
-              <img className='display-image' src={podcast.displayImage} alt="" />
+              <img className='display-image' src={podcast.displayImage} alt="podcast" />
               <Genres genres={podcast.genres} />
             </div>
             <div className="details-box">

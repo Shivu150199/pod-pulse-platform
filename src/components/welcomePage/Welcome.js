@@ -23,7 +23,7 @@ function Welcome({ setFlag }) {
     return (
         <div className='welcome-page'>
             <div className="welcome-container">
-                <img src={welcomeBanner} alt="" />
+                <img src={welcomeBanner} alt="welcomebanner" />
                 <h1 className="welcome-msg">
                     Welcome To PodPulse
                 </h1>
