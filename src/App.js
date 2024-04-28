@@ -16,10 +16,10 @@ import { useDispatch } from 'react-redux';
 import { collection, doc, getDoc, getDocs } from 'firebase/firestore';
 import { setUser } from './slices/userSlice';
 import { setPodcasts } from './slices/podcastSlice';
-import Welcome from './components/welcomePage/Welcome';
+// import Welcome from './components/welcomePage/Welcome';
 
 function App() {
-    const [user, loading, error] = useAuthState(auth);
+    const [user, error] = useAuthState(auth);
     const dispatch = useDispatch();
 
     const [flag, setFlag] = useState(true);
